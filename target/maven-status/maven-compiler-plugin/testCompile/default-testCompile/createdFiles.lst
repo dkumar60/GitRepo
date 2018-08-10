@@ -1,0 +1,4 @@
+com\Facebook\pages\FacebookLoginPage.class
+com\Facebook\testCases\AppTest.class
+com\Facebook\testCases\Facebook.class
+com\Facebook\pages\FacebookHomePage.class

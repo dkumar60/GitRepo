@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="280946" started-at="2018-07-10T03:34:41Z" finished-at="2018-07-10T03:39:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="280946" started-at="2018-07-10T03:34:41Z" finished-at="2018-07-10T03:39:21Z">
+      <class name="com.Facebook.testCases.Facebook">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Facebook.testCases.Facebook@3c130745]" name="setup" is-config="true" duration-ms="4828" started-at="2018-07-10T09:04:41Z" finished-at="2018-07-10T09:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FBLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Facebook.testCases.Facebook@3c130745]" name="FBLogin" duration-ms="131388" started-at="2018-07-10T09:04:45Z" data-provider="credential" finished-at="2018-07-10T09:06:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[imdeepakraj4you@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mp04am3160]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FBLogin -->
+        <test-method status="PASS" signature="ValidateBdaySection()[pri:0, instance:com.Facebook.testCases.Facebook@3c130745]" name="ValidateBdaySection" duration-ms="92412" started-at="2018-07-10T09:06:57Z" depends-on-methods="com.Facebook.testCases.Facebook.FBLogin" finished-at="2018-07-10T09:08:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateBdaySection -->
+        <test-method status="PASS" signature="ValidateStoriesSection()[pri:0, instance:com.Facebook.testCases.Facebook@3c130745]" name="ValidateStoriesSection" duration-ms="51287" started-at="2018-07-10T09:08:29Z" depends-on-methods="com.Facebook.testCases.Facebook.FBLogin" finished-at="2018-07-10T09:09:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStoriesSection -->
+        <test-method status="PASS" signature="closeConnection()[pri:0, instance:com.Facebook.testCases.Facebook@3c130745]" name="closeConnection" is-config="true" duration-ms="997" started-at="2018-07-10T09:09:20Z" finished-at="2018-07-10T09:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- com.Facebook.testCases.Facebook -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
