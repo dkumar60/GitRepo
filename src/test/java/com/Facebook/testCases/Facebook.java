@@ -45,7 +45,8 @@ public class Facebook {
 	
 	@Test(dependsOnMethods="FBLogin", enabled=true)
 	public void PrintName() {
-		System.out.println("My Name is Lakhan");				
+		System.out.println("My Name is Lakhan");	
+		System.out.println("Are .. Deepak is my Name");
 	}
 	
 	@DataProvider
