@@ -43,6 +43,11 @@ public class Facebook {
 		System.out.println(fbHomePage.validateBdaySection());				
 	}
 	
+	@Test(dependsOnMethods="FBLogin", enabled=true)
+	public void PrintName() {
+		System.out.println("My Name is Lakhan");				
+	}
+	
 	@DataProvider
 	public Object[][] credential(){
 		Object [][] data = new Object[1][2];
