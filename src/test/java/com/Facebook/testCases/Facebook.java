@@ -49,6 +49,11 @@ public class Facebook {
 		System.out.println("Are .. Deepak is my Name");
 	}
 	
+	@Test(dependsOnMethods="FBLogin", enabled=true)
+	public void NewMethodOnDevelopBranch() {
+		System.out.println("My Name is Lakhan");	
+		System.out.println("Are .. Deepak is my Name");
+	}
 	@DataProvider
 	public Object[][] credential(){
 		Object [][] data = new Object[1][2];
